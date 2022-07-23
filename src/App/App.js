@@ -1,11 +1,12 @@
-
-
 import './App.css';
 import React from 'react';
+import SideMenu from '../components/SideMenu';
 
 function App() {
   return (
-    <h1>hi imalsha</h1>
+    <>
+    <SideMenu/>
+    </>
   );
 }
 
